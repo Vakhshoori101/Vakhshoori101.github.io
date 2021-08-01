@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #6c878e;
   text-decoration: underline;
 }
 
@@ -10601,4 +10601,37 @@ header.masthead h1 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.experiences-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.experience-image {
+  width: 160px;
+  height: 160px;
+}
+
+.experience-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.experience-header {
+  color: #2d545e
+}
+
+.experience + .experience {
+  margin-top: 50px;
 }
